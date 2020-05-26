@@ -1,0 +1,28 @@
+# APL China L x B x T = 262.0 x 40.0 x 12.32 
+# BCS @ MS-WL-CL || CoG from AP, WL, CL = 124.821, 0, 6.00
+# Beam Sea Irregular Wave - Linear EOM, Linear Hydrostatics and Linear Froude Krylov
+# Bretschneider Spectrum Hs = 6.0 m, Tp = 11.59 sec
+#--------------------------------------------------------------------------------------------------
+*start_read
+
+# Inputs for ROLL_DAMP (Roll Damping Module of SIMDYN)
+#--------------------------------------------------------------------------------------------------
+*job_name aplchina
+
+*himeno
+*lengthbp 262.0
+*breadth 40.0
+*draft 12.32
+*bilge_keel -37.265 39.265 0.40
+*xbody 0.0 0.0 0.0 0.0
+
+*gyration_radii
+13.61000 .0000000 .0000000
+.0000000 62.55000 .0000000
+.0000000 .0000000 62.55000
+
+*vcg 6.00
+*forward_speed 0.0
+*wave_direction 90.0
+
+*end_read
